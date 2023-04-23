@@ -12,7 +12,6 @@ DESC
   spec.ios.deployment_target = "13.0"
 
   spec.source       = { :git => "http://git.techvify.com.vn/internal/poc/iOS/Common.git", :tag => spec.version.to_s }
-  spec.source_files = 'Common/**/*.{swift,h}'
-	
-	spec.dependency 'KeychainAccess'
+  spec.source_files = 'Sources/Common/**/*.{swift,h}'
+  spec.dependency 'KeychainAccess'
 end

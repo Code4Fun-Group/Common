@@ -5,7 +5,7 @@
 //  Created by NamNH on 30/09/2021.
 //
 
-import Foundation
+import UIKit
 
 private enum Constants {
 	static let appStoreURLFormat = "itms-apps://itunes.apple.com/app/bars/id%@"

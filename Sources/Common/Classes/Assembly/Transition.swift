@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 public protocol ITransition {
 	var name: String { get }

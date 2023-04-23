@@ -5,7 +5,7 @@
 //  Created by NamNH on 30/09/2021.
 //
 
-import Foundation
+import UIKit
 
 public extension String {
 	var int: Int? {
