@@ -17,7 +17,7 @@ let package = Package(
 			targets: ["Common"])
 	],
 	dependencies: [
-		.package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", branch: "master"),
+		.package(url: "https://github.com/kishikawakatsumi/KeychainAccess.git", branch: "master")
 	],
 	targets: [
 		.target(
