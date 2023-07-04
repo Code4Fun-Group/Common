@@ -8,7 +8,7 @@
 import SwiftUI
 
 @available(iOS 14.0, *)
-extension UIFont {
+public extension UIFont {
 	class func preferredFont(from font: Font) -> UIFont {
 		let style: UIFont.TextStyle
 		switch font {
